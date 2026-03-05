@@ -15,9 +15,6 @@ func TestGetApiKey(t *testing.T) {
 		expectedErr string
 	}{
 		{
-			expectedErr: "Temporary fail test to make sure CI catches it",
-		},
-		{
 			expectedErr: "no authorization header included",
 		},
 		{
